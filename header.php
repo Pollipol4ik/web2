@@ -44,14 +44,7 @@
                     $text ='КОНТАНТЫ';
                     
                     ?>" class = "<?php if($visible){echo 'nav-item';}?>"> <?=$text?>
-                    </a>
-                    <a href = "<?php 
-                    $visible = true;
-                    echo $link_about;
-                    $text ='О НАС';
-                    
-                    ?>" class = "<?php if($visible){echo 'nav-item';}?>"> <?=$text?>
-                    </a>
+                   
                 
                 </div>
                 <div class="heart">

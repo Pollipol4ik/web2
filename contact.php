@@ -14,13 +14,14 @@
 
     <div class="main-content">
         <div class="fullscreen-image">
-            <!-- Карта -->
-            <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A89d3ab31c66dd9e7ae2102221488f6afa7c7f9461ba51870413abba023b77371&amp;width=100%&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+           
+            <script type="text/javascript" charset="utf-8" async
+             src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A89d3ab31c66dd9e7ae2102221488f6afa7c7f9461ba51870413abba023b77371&amp;width=100%&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
 
             <div class="image-caption">
-                <h2>Как нас найти</h2>
+                <h2>Как нас найти?</h2>
                 <p>Мы находимся по адресу:</p>
-                <p>г. Сочи, ул. Гагарина, дом 53</p>
+                <p>г. Москва, Скатертный переулок, дом 28</p>
                 <p>Приглашаем вас посетить наш магазин!</p>
             </div>
         </div>

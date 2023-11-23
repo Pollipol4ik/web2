@@ -1,44 +1,60 @@
-/* style.css */
-
 body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f2f2f2;
 }
 
 .main-content {
-    text-align: center;
+    flex: 1;
 }
 
 .fullscreen-image {
     position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 40px; 
+    margin-bottom: 40px; 
 }
 
-.fullscreen-image img {
-    width: 100%;
-    height: auto;
-}
 
 .image-caption {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: rgba(255, 255, 255, 0.8);
-    padding: 20px;
-    max-width: 400px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    top: 10px; 
+    left: 10px; 
+    background: rgba(255, 255, 255, 0.8); 
+    border-radius: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.image-caption h2,
+.image-caption p {
+    margin: 0;
+    
 }
 
 .image-caption h2 {
-    margin-top: 0;
+    color: #7D9D2D;
+    font-size: 20px; 
+    text-transform: uppercase;
+}
+
+.image-caption p {
+    color: #333;
+    font-size: 17px; 
 }
 
 .footer {
-    background: #333;
     color: #fff;
     text-align: center;
-    padding: 20px 0;
+    padding: 10px;
 }
-
-/* Add any additional styling you need */

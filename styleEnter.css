@@ -2,53 +2,75 @@ body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f2f2f2;
+}
+
+header, footer {
+    width: 100%;
+    color: #fff;
+    padding: 10px;
+    box-sizing: border-box;
 }
 
 .enter-person {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    margin: auto;
+    box-sizing: border-box;
 }
 
 .enter-person h1 {
     margin: 30px 0;
     padding: 0;
-    text-align: center;  /* Исправлено */
-    color: #fff;
+    text-align: center;
+    color: #333;
     font-size: 30px;
     text-transform: uppercase;
 }
 
 .input-form {
-    margin: 15px 0 40px;  
+    margin: 15px 0;
     text-align: center;
 }
 
 .input-form input {
     padding: 10px;
-    width: 250px;
-    color: #fff;
-    font-size: 20px;
-    font-weight: 100;
-    background: none;
+    width: 100%;
+    color: #333;
+    font-size: 16px;
+    font-weight: 300;
+    background: #fff;
     outline: none;
-    border: 1px solid #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
     box-sizing: border-box;
+    margin-bottom: 15px;
 }
 
 .input-form input:focus {
-    border: 1px solid dodgerblue;
+    border: 1px solid  #7D9D2D;
 }
 
 .input-form input[type="submit"] {
-    margin-top: 20px;
     color: #fff;
     font-weight: bold;
     text-transform: uppercase;
     border: none;
-    background: dodgerblue;
+    background:  #7D9D2D;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
     transition: 0.3s;
 }
 
@@ -61,7 +83,7 @@ body {
     height: 13px;
     padding: 0;
     margin: 0;
-    color: #fff;
+    color: #333;
     vertical-align: bottom;
     position: relative;
     top: -1px;
@@ -71,3 +93,10 @@ label {
     color: #555;
 }
 
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: auto;
+}

@@ -9,23 +9,16 @@
         </div>
     </div>
     <div class="mail">
-        polinakuptzova23@gmail.com
+        zooOnly@gmail.com
     </div>
     <div class="address">
-        г. Сочи, ул. Гагарина, дом 53
+    г. Москва, Скатертный переулок, дом 28
     </div>
     <div class="time">
         <?php
         date_default_timezone_set('Europe/Moscow');
         $currentDateTime = date('Y-m-d H:i:s');
-        echo "Сформировано: " . $currentDateTime;
+        echo "Текущая дата: " . $currentDateTime;
         ?>
-    </div>
-    <div class="panel"> 
-        <a class='nav-items' href="#">ГЛАВНАЯ</a>
-        <a class='nav-items' href="#">КАТАЛОГ</a>
-        <a class='nav-items' href="#">КОНТАНТЫ</a>
-        <a class='nav-items' href="#">О НАС</a>
-        <a class='nav-items' href="author.php">ЗАБРОНИРОВАТЬ</a>
     </div>
 </footer>

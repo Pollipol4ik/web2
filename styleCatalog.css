@@ -1,4 +1,10 @@
 
+.header {
+    background-color: white;
+    color: #7D9D2D;
+    padding: 10px 0;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2); 
+}
 body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
@@ -42,7 +48,7 @@ body {
 .product-card a {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #e63946;
+    background-color:#7D9D2D;
     color: #fff;
     text-decoration: none;
     font-weight: bold;
