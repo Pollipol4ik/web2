@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+.enter-person {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.enter-person h1 {
+    margin: 30px 0;
+    padding: 0;
+    text-align: center;  /* Исправлено */
+    color: #fff;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.input-form {
+    margin: 15px 0 40px;  
+    text-align: center;
+}
+
+.input-form input {
+    padding: 10px;
+    width: 250px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 100;
+    background: none;
+    outline: none;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+}
+
+.input-form input:focus {
+    border: 1px solid dodgerblue;
+}
+
+.input-form input[type="submit"] {
+    margin-top: 20px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    background: dodgerblue;
+    transition: 0.3s;
+}
+
+.input-form input[type="submit"]:hover {
+    background: #616265;
+}
+
+.input-form input[type="checkbox"] {
+    width: 13px;
+    height: 13px;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    vertical-align: bottom;
+    position: relative;
+    top: -1px;
+}
+
+label {
+    color: #555;
+}
+

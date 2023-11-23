@@ -1,0 +1,144 @@
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+.header {
+    background-color: white;
+    color: #7D9D2D;
+    padding: 10px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-line {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-logo img {
+    margin-right: 400px;
+    
+}
+
+.nav {
+    display: flex;
+    margin-right: auto; 
+}
+
+.nav-item {
+    color: #7D9D2D;
+    text-decoration: none;
+    margin: 10px 25px;
+    font-weight: 600;
+    
+}
+
+
+.button {
+    background-color: #e63946;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.person {
+    margin-left: 20px;
+}
+.heart {
+    margin-left: 350px;
+}
+
+.person_name img {
+    border-radius: 50%;
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+.main-content {
+    text-align: center;
+}
+.fullscreen-image {
+    position: relative;
+    text-align: left;
+}
+
+.fullscreen-image img {
+    width: 100%;
+    height: auto;
+}
+
+.image-caption {
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    transform: translate(0%, -50%);
+    color:#7D9D2D;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+footer {
+    background-color: #7D9D2D;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.naming {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.trub img {
+    margin-right: 5px;
+}
+
+.num-2 {
+    font-weight: bold;
+}
+
+.mail, .address, .time {
+    margin: 10px 0;
+}
+.panel {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #7D9D2D; /* Цвет фона */
+    padding: 10px; /* Добавлен отступ для лучшего визуального восприятия */
+}
+
+.nav-items {
+    color: white;
+    text-decoration: none;
+    margin: 5px 20px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+    .panel {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-items {
+        margin: 5px 0;
+        align-items: center;
+    }
+}

@@ -1,0 +1,44 @@
+/* style.css */
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+.main-content {
+    text-align: center;
+}
+
+.fullscreen-image {
+    position: relative;
+}
+
+.fullscreen-image img {
+    width: 100%;
+    height: auto;
+}
+
+.image-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    max-width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.image-caption h2 {
+    margin-top: 0;
+}
+
+.footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Add any additional styling you need */
