@@ -1,4 +1,3 @@
-<!-- header.php -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,7 +11,6 @@
     <?php 
     $link_catalog = "catalog.php";
     $link_main = "index.php";
-    $link_about = "aboutUs.php";
     $link_contact = "contact.php"
     ?>
 </head>
@@ -48,7 +46,7 @@
                 
                 </div>
                 <div class="heart">
-                    <a href="enter.php" class="most_like">
+                    <a href="purchases.php" class="most_like">
                         <img src="image/heart.png"  width="30" alt="Избранное">
                     </a>
                 </div>

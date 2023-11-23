@@ -16,8 +16,8 @@ document.addEventListener('DOMContentLoaded', function () {
         },
         loop: true,
         autoplay: {
-            delay: 3000, // Задержка в миллисекундах между переключением слайдов
-            disableOnInteraction: false, // Отключает автопрокрутку при взаимодействии пользователя с слайдером
+            delay: 3000,
+            disableOnInteraction: false, 
         }
     });
 });
